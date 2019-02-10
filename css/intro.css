@@ -1,0 +1,64 @@
+
+  .intro-card{
+    width: 100vh;
+    background-color: white;
+    position: relative;
+    padding: 50px 35px 35px 35px;
+    box-shadow: -10px 10px #F9D069;
+    border-radius: 10px;
+    margin: 10vh auto;
+  }
+  .sec6{
+    color: #828282;
+    width: 100%;
+    background-color:  #FCE792;
+    padding-top: 20px;
+  }
+  .sec6 .carousel-item{
+    text-align: center;
+    align-items: center;
+    background-color:  #FCE792;
+  }
+  .sec6 .carousel-inner{
+  }
+  .sec6 .carousel{
+    height: 370px;
+    background-color:  #FCE792;
+  }
+
+  .sec6 img{
+    width: 100px;
+    position: absolute;
+    top: -50px;
+    left: 43vh;
+  }
+
+  @media (max-width:900px) {
+    .intro-card{
+      width: 375px;
+    }
+    .sec6 img{
+      left: 22vh;
+    }
+    .sec6 .carousel{
+      height: 430px;
+    }
+  }
+  @media (max-width:490px) {
+    .intro-card{
+      width: 210px;
+      height: 415px;
+    }
+    .sec6 .carousel{
+      height: 540px;
+    }
+    .sec6 img{
+      left: 8.5vh;
+    }
+    .sec6 p {
+      font-size: 14px;
+    }
+    .sec6 {
+      height: 620px;
+    }
+  }

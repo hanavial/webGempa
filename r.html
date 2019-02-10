@@ -1,0 +1,111 @@
+<section class="secgempa2">
+    <h2 style="color:#885e3b;font-weight: bold;" class="h2c">Gempa Bumi Terkini (Magnitude > 5,0 SR)</h2>
+    <br>
+    <div id="carouselExampleIndicators" class="carousel slide dua" style="height: 500px;" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                              <div class="card">
+                                  <div class="card-img-top" src="..." alt="Card image cap" id="b1map2"></div>
+                                  <div class="card-body">
+                                      Magnitude
+                                      <h5 class="card-title"> <span>
+                                              <?php echo $gempah->Magnitude; ?> </span> </h5>
+                                      <div class="cb" style="width:100%;">
+                                          <div class="cb1" style="width:50%;">
+                                              Kedalaman <br>
+                                              <h6> <span>
+                                                      <?php echo $gempah->Kedalaman; ?></span></h6>
+                                          </div>
+      
+                                          <div class="cb2">
+                                              Lokasi <br>
+                                              <h6> <span>
+                                                      <?php echo $gempah->Lintang." - ".$gempah->Bujur; ?></span></h6>
+                                          </div>
+                                      </div>
+                                      <br>
+                                      Wilayah
+                                      <h6> <span>
+                                              <?php echo $gempah->Wilayah; ?></span></h6>
+                                      <span>
+                                          <?php echo str_replace("-"," ",$gempah->Tanggal).", ".$gempah->Jam; ?> </span>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="carousel-item">
+                              <div class="card">
+                                  <div class="card-img-top" src="..." alt="Card image cap" id="b2map2"></div>
+                                  <div class="card-body">
+                                      Magnitude
+                                      <h5 class="card-title"> <span>
+                                              <?php echo $gempah2->Magnitude; ?> </span> </h5>
+                                      <div class="cb" style="width:100%;">
+                                          <div class="cb1" style="width:50%;">
+                                              Kedalaman <br>
+                                              <h6><span>
+                                                      <?php echo $gempah2->Kedalaman; ?></span></h6>
+                                          </div>
+      
+                                          <div class="cb2">
+                                              Lokasi <br>
+                                              <h6><span>
+                                                      <?php echo $gempah2->Lintang." - ".$gempah2->Bujur; ?></span></h6>
+                                          </div>
+                                      </div>
+                                      <br>
+                                      Wilayah
+                                      <h6><span>
+                                              <?php echo $gempah2->Wilayah; ?></span></h6>
+                                      <span>
+                                          <?php echo str_replace("-"," ",$gempah2->Tanggal).", ".$gempah2->Jam; ?> </span>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="carousel-item">
+                              <div class="card">
+                                  <div class="card-img-top" src="..." alt="Card image cap" id="b3map2"></div>
+                                  <div class="card-body">
+                                      Magnitude
+                                      <h5 class="card-title"> <span>
+                                              <?php echo $gempah3->Magnitude; ?> </span> </h5>
+                                      <div class="cb" style="width:100%;">
+                                          <div class="cb1" style="width:50%;">
+                                              Kedalaman <br>
+                                              <h6><span>
+                                                      <?php echo $gempah3->Kedalaman; ?></span></h6>
+                                          </div>
+      
+                                          <div class="cb2">
+                                              Lokasi <br>
+                                              <h6><span>
+                                                      <?php echo $gempah3->Lintang." - ".$gempah3->Bujur; ?></span></h6>
+                                          </div>
+                                      </div>
+                                      <br>
+                                      Wilayah
+                                      <h6><span>
+                                              <?php echo $gempah3->Wilayah; ?></span></h6>
+                                      <span>
+                                          <?php echo str_replace("-"," ",$gempah3->Tanggal).", ".$gempah3->Jam; ?> </span>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+        </div>
+
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+
+    </div>
+</section>
